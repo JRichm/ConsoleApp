@@ -12,6 +12,7 @@
 
                         <Grid>
                             <Rectangle StrokeThickness="1"/>
+                            
                             <TextBox Margin="1"
                                      Text="{TemplateBinding Text}"
                                      BorderThickness="0"
@@ -28,7 +29,7 @@
                                        FontSize="11"
                                        Foreground="DarkGray"
                                        Grid.Column="1">
-                                
+
                                 <TextBlock.Style>
                                     <Style TargetType="{x:Type TextBlock}">
                                         <Style.Triggers>
@@ -40,11 +41,8 @@
                                     </Style>
                                 </TextBlock.Style>
                             </TextBlock>
-                                                        
                         </Grid>
-                        
                     </Border>
-
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
